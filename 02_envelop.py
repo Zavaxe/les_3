@@ -13,7 +13,7 @@ envelop_x, envelop_y = 10, 7
 paper_x, paper_y = 8, 9
 # проверить для
 #paper_x, paper_y = 9, 8
-#paper_x, paper_y = 6, 8
+paper_x, paper_y = 6, 8
 #paper_x, paper_y = 8, 6
 #paper_x, paper_y = 3, 4
 #paper_x, paper_y = 11, 9
@@ -21,6 +21,8 @@ paper_x, paper_y = 8, 9
 # (просто раскоментировать нужную строку и проверить свой код)
 
 if envelop_x > paper_x and envelop_y > paper_y:
+    print('Да, поместится')
+elif envelop_y > paper_x and envelop_x > paper_y:
     print('Да, поместится')
 else:
     print('Нет, не поместится')
