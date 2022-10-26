@@ -55,3 +55,5 @@ brick_x, brick_y, brick_z = 11, 10, 2
 # (просто раскоментировать нужную строку и проверить свой код)
 
 # TODO здесь ваш код
+brick_size = [brick_x, brick_y, brick_z]
+if hole_x > brick_size[0]
