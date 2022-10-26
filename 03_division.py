@@ -11,3 +11,11 @@
 a, b = 179, 37
 
 # TODO здесь ваш код
+c = a
+d = b
+count = 0
+while c > d:
+    count += 1
+    c = c - d
+print('Целочисленное деление', a, 'на', b, 'дает', count)
+
